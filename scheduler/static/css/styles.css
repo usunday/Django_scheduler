@@ -1,0 +1,51 @@
+.sidebar-nav {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+      height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+
+#calendar {
+  height: 99%;
+  box-sizing: border-box;
+  padding: 0.5%;
+}
+
+.calendar__day {
+  display: inline-block;
+  vertical-align: bottom;
+  width: calc(97% / 7);
+  height: calc(98% / 5);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px;
+}
+.sunday{
+  background-color:#FFB3BB;
+}
+.saturday{
+  background-color:#BBFFC9;
+}
+.otherday{
+  background-color:#B9E1FF;
+}
+.today{
+  background-color:#FFC220;
+}
+
+.horizontalGutter {
+  margin-right: 0.5%;
+}
+
+.verticalGutter {
+  margin-top: 0.5%;
+}
